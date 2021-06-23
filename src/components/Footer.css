@@ -1,0 +1,31 @@
+.social
+{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.15);
+    top: 50%;
+    right: -.25rem;
+    transform: translateY(-50%);
+    width: 55px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.social-icon:hover
+{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 960px) {
+    .social
+    {
+        position: absolute;
+        background: transparent;
+        right: 15px;
+    }
+}

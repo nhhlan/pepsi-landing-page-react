@@ -1,0 +1,128 @@
+.hero
+{
+    min-height: calc(100vh - 5.625rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+.hero__text h2
+{
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.hero__text h2 span
+{
+    display: block;
+}
+.hero__text p
+{
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 60%;
+}
+.hero__btn
+{
+    padding: 0.5rem 1rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.hero__img
+{
+    max-width: 200px;
+}
+.hero__img-news
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+.hero__img img
+{
+    object-fit: contain;
+}
+
+.hero__text-span
+{
+    font-size: 6.2rem;
+}
+.hero__fontSmall
+{
+    font-size: 1.8rem;
+}
+.hero__fontBig
+{
+    font-size: 2.5rem;
+}
+.hero__small
+{
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 960px) {
+    .hero
+    {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero__text, .hero__img
+    {
+        max-width: 50%;
+    }
+    .hero__fontSmall
+    {
+        font-size: 2.4rem;
+        text-align: left;
+    }
+    .hero__fontBig
+    {
+        font-size: 3.5rem;
+    }
+    .hero__text-span
+    {
+        font-size: 8rem;
+    }
+    .hero__text p
+    {
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 1.2;
+        margin: 1.5rem auto 2rem;
+        max-width: 100%;
+    }
+    .hero__btn
+    {
+        padding: 0.75rem 1rem;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .hero__small
+    {
+        min-height: 0;
+        /* max-height: 290px; */
+        max-height: calc((100vh - 5.625rem) / 2);
+    }
+    .hero__small > .hero__img
+    {
+        max-width: 380px;
+    }
+    .hero__small > .hero__text
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}

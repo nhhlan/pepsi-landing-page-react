@@ -1,0 +1,139 @@
+.detail__img
+{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.detail__img img
+{
+    max-width: 220px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.detail__text
+{
+    text-align: center;
+    margin-top: 5rem;
+}
+.detail__text h2
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.detail__text p
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.detail__text h5
+{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.detail__table
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 1rem;
+}
+.detail__btn
+{
+    background: transparent;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.table
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.table__item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 130px;
+    width: 95%;
+}
+.table__item span
+{
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.table__name
+{
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 100%;
+}
+.table__number
+{
+    font-size: 1.8em;
+    font-weight: 600;
+    width: 100%;
+}
+.table__perc
+{
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 100%;
+}
+.backBtn
+{
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    .detail
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 5.625rem);
+    }
+    .detail__text
+    {
+        text-align: left;
+        margin-top: 2rem;
+        width: 50%;
+    }
+    .detail__text p
+    {
+        width: 80%;
+        margin: 0;
+    }
+    .detail__table
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: start;
+    }
+    .detail__btn
+    {
+        margin: 2.5rem 0;
+    }
+    .detail__img
+    {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+    .table__item
+    {
+        min-width: 100px;
+    }
+}
