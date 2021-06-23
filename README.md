@@ -6,8 +6,8 @@
 
 ## Links
 
-- [Github URL](https://github.com/nhhlan/react-pepsi-landing-page)
-- [Live Site URL](https://nhhlan.github.io/react-pepsi-landing-page/)
+- [Github URL](https://github.com/nhhlan/pepsi-landing-page-react)
+- [Live Site URL](https://nhhlan.github.io/pepsi-landing-page-react/)
 
 ## Built with
 
