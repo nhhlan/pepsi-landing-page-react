@@ -7,7 +7,7 @@
 ## Links
 
 - [Github URL](https://github.com/nhhlan/pepsi-landing-page-react)
-- [Live Site URL](https://nhhlan.github.io/pepsi-landing-page-react/)
+- [Live Site URL](https://suspicious-volhard-858afb.netlify.app/)
 
 ## Built with
 
